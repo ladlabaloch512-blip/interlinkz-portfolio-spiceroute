@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product - Spice Route Kitchen</title>
+<meta name="description" content="Product details, weight options and prices.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo-mark.png" alt="Spice Route Kitchen logo mark">
+        <span class="brand-name">SPICE ROUTE KITCHEN</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open menu">Menu</button>
+      <nav class="main-nav" data-nav aria-label="Main">
+        <ul><li><a href="index.html">Home</a></li><li><a href="shop.html" class="active">Shop</a></li><li><a href="blends.html">House Blends</a></li><li><a href="recipes.html">Recipes</a></li><li><a href="bulk.html">Bulk and Gifting</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li><li><a href="cart.html" class="cart-link">Cart <span class="cart-count" data-cart-count>0</span></a></li></ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+
+<section data-product-page>
+  <div class="container">
+    <div class="product-grid">
+      <img data-p-img src="images/hero.jpg" alt="">
+      <div class="product-info">
+        <p class="p-cat" data-p-cat></p>
+        <h1 data-p-name></h1>
+        <p data-p-long></p>
+        <p style="margin-top:18px"><strong>Choose a weight</strong></p>
+        <div class="weight-pills" data-p-weights></div>
+        <p class="p-price" data-p-price></p>
+        <div class="qty-row">
+          <div class="qty-stepper">
+            <button type="button" data-qty-minus aria-label="Decrease quantity">-</button>
+            <input type="text" value="1" data-p-qty aria-label="Quantity" inputmode="numeric">
+            <button type="button" data-qty-plus aria-label="Increase quantity">+</button>
+          </div>
+          <button type="button" class="btn btn-green btn-large" data-p-add>Add to Cart</button>
+        </div>
+        <div class="note-box">
+          <h2>Storage note</h2>
+          <p data-p-storage></p>
+        </div>
+        <div class="note-box" data-p-recipes hidden></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="container">
+    <div class="section-head"><h2>You may also like</h2></div>
+    <div class="grid" data-related-grid></div>
+  </div>
+</section>
+
+</main>
+<div class="lead-band">
+  <div class="container lead-inner">
+    <p>This demo website was designed and built by Interlinkz. Like the look of it?</p>
+    <a class="btn" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="lead-contact" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo-full.jpg" alt="Spice Route Kitchen">
+        <p>Whole spices, small batch blends and premium dry fruits, cleaned, ground and packed to order.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="shop.html">Shop All Products</a></li>
+          <li><a href="blends.html">House Blends</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="bulk.html">Bulk and Gifting</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <ul>
+          <li>Spice Route Kitchen</li>
+          <li>8 Demo Street, Sample Town</li>
+          <li>Phone: 0300 0000000</li>
+          <li>Email: hello@spiceroute.example.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Opening Hours</h4>
+        <ul>
+          <li>Monday to Saturday: 9 am to 9 pm</li>
+          <li>Sunday: 10 am to 6 pm</li>
+          <li>Delivery: flat Rs 250, free above Rs 5,000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Built by <a href="https://interlinkz.com">Interlinkz</a></span>
+      <span>Spice Route Kitchen. This is a demo portfolio website. All business details, prices and products shown are sample content for design display only.</span>
+    </div>
+  </div>
+</footer>
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
